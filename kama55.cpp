@@ -39,5 +39,3 @@
 //     reverse(s.begin() + num, s.end());
 //     cout << s;
 // }
-//
-//
