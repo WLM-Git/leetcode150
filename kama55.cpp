@@ -3,9 +3,11 @@
 // //
 // #include <iostream>
 // #include <string>
+// #include <algorithm>
 // using namespace std;
 //
 // void rotateString(string &s, int num);
+// void rotateStringPro(string &s, int num);
 //
 // int main()
 // {
@@ -13,7 +15,7 @@
 //     string s;
 //     cin >> k;
 //     cin >> s;
-//     rotateString(s,k);
+//     rotateStringPro(s,k);
 // }
 //
 // void rotateString(string &s, int num)
@@ -29,3 +31,13 @@
 //     }
 //     cout << s;
 // }
+//
+// void rotateStringPro(string &s, int num)
+// {
+//     reverse(s.begin(), s.end());
+//     reverse(s.begin(), s.begin() + num);
+//     reverse(s.begin() + num, s.end());
+//     cout << s;
+// }
+//
+//
